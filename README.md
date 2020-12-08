@@ -20,12 +20,14 @@ The intensities of the grayscale image is checked:
 ```matlab
 min(P(:)), max(P(:))
 ```  
+  
 
 <img src = "https://github.com/StephanieMussi/Image_Contrast_Streching_MatLab/blob/main/Figures/1min.png" width =  102 height = 118>
-<img src = "https://github.com/StephanieMussi/Image_Contrast_Streching_MatLab/blob/main/Figures/1max.png" width =  102 height = 118>  
+<img src = "https://github.com/StephanieMussi/Image_Contrast_Streching_MatLab/blob/main/Figures/1max.png" width =  102 height = 118>    
 
 To map the intensity scope to 0 – 255, firstly subtract 13 to make the minimum intensity 0, then multiplies 255/(204-13) = 255/191 to make the maximum intensity 255.  
-There are two approaches: 
+There are two approaches:  
+
 __Approach 1:__  
  ```matlab
  P1 = imsubtract(P, 13);
