@@ -19,7 +19,8 @@ imshow(P)
 The intensities of the grayscale image is checked:  
 ```matlab
 min(P(:)), max(P(:))
-```
+```  
+
 <img src = "https://github.com/StephanieMussi/Image_Contrast_Streching_MatLab/blob/main/Figures/1min.png" width =  102 height = 118>
 <img src = "https://github.com/StephanieMussi/Image_Contrast_Streching_MatLab/blob/main/Figures/1max.png" width =  102 height = 118>  
 
